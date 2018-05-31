@@ -1,11 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Primeiro, { Segundo } from './component'
+import SilvaFamily from './silvaFamily' //O nome do componente deve ser sempre maiúsculo
 
 //Os componentes do React devem ser agrupados pois a função render retorna apenas um componente
 ReactDOM.render(
-    <div> 
-        <Primeiro />
-        <Segundo />
-    </div>
+    <SilvaFamily />
 , document.getElementById("app"))
