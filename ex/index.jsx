@@ -1,6 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Component from './component'
+import Primeiro, { Segundo } from './component'
 
-//Precisa iniciar novamente o servidor - npm run dev
-ReactDOM.render(<Component value="Show"/>, document.getElementById('app')) //Gera o conteúdo dinamicamente
+//Os componentes do React devem ser agrupados pois a função render retorna apenas um componente
+ReactDOM.render(
+    <div> 
+        <Primeiro />
+        <Segundo />
+    </div>
+, document.getElementById("app"))

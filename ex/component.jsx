@@ -1,11 +1,12 @@
 import React from 'react'
 
-const Primeiro = props => (
+//Ao exportar com default é possível retornar vários componentes ao mesmo tempo
+export default props => (
     <h1> Primeiro Componente </h1>
 )
 
-const Segundo = props => (
+export const Segundo = props => (
     <h2> Segundo Componente </h2>
 )
 
-export { Primeiro, Segundo }
+//export { Primeiro, Segundo }
