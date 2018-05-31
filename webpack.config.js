@@ -11,7 +11,7 @@ module.exports = {
         contentBase: './public',
     },
     resolve: {
-        extensions: ['','js','jsx']
+        extensions: ['','.js','.jsx']
     },
     module: {
         loaders: [{
