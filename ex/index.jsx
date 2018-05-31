@@ -1,8 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import SilvaFamily from './silvaFamily' //O nome do componente deve ser sempre maiúsculo
+import Family from './family' //O nome do componente deve ser sempre maiúsculo
+import Member from './member'
 
 //Os componentes do React devem ser agrupados pois a função render retorna apenas um componente
 ReactDOM.render(
-    <SilvaFamily />
+    <Family>
+        <Member name='Iury' lastName='Oliveira' />
+    </Family>
 , document.getElementById("app"))
