@@ -5,7 +5,9 @@ import Member from './member'
 
 //Os componentes do React devem ser agrupados pois a função render retorna apenas um componente
 ReactDOM.render(
-    <Family>
-        <Member name='Iury' lastName='Oliveira' />
+    <Family lastName='Silva'>
+        <Member name='Iury' />
+        <Member name='Rafael' />
+        <Member name='Julia' />
     </Family>
 , document.getElementById("app"))
