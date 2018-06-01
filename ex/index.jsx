@@ -1,11 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Primeiro, { Segundo } from './component'
+import ClassComponent from './ClassComponent'
 
 //Os componentes do React devem ser agrupados pois a função render retorna apenas um componente
 ReactDOM.render(
-    <div> 
-        <Primeiro />
-        <Segundo />
-    </div>
+    <ClassComponent value='Componente da classe' />
 , document.getElementById("app"))
