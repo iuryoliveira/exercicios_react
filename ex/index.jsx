@@ -4,5 +4,5 @@ import ClassComponent from './ClassComponent'
 
 //Os componentes do React devem ser agrupados pois a função render retorna apenas um componente
 ReactDOM.render(
-    <ClassComponent value='Componente da classe' />
+    <ClassComponent label="Calcular" initialValue={10} />
 , document.getElementById("app"))
